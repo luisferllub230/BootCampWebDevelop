@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  margin-top: 0;
+}
+
+.first{
+  background-color: #55D8C1;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #383838;
+  padding: 20px;
+}
+
+.second{
+  background-color: #B20600;
+  height: 200px;
+  width: 200px;
+  border: 20px solid #383838;
+  margin-left: 260px;
+}
+
+.third{
+  background-color: #FFD124;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #383838;
+  margin-left: 500px;
+}
