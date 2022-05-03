@@ -2,8 +2,15 @@
   --color-raro:#00ADB5;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 h1{
   color: var(--color-raro);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h3{
@@ -16,4 +23,8 @@ hr{
   border-top-style: dotted;
   border-top-color: grey;
   border-width: 5px;
+}
+
+table{
+  border: none;
 }
