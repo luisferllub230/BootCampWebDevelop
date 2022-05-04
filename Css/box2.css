@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.b1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 400px;
+}
+.b2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 200px;
+}
+.b3 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+}
