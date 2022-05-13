@@ -1,44 +1,45 @@
 :root{
   --color-negro:#222831;
-  --color-aqua:#40DFEF;
+  --color-aqua:#3BACB6;
+  --color-aquaClaro:#B3E8E5;
 }
 
+/*html body, main, header, footer*/
 body{
   margin: 0;
-  margin-top: 50px;
   padding: 0;
   text-align: center;
-  background-color: var(--color-aqua);
 }
 
+header{
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  background-color: var(--color-aquaClaro);
+}
+
+
+/*html h1-h6*/
 h1{
-  color: var(--color-negro);
-  margin-top: 0;
+  color: var(--color-aqua);
+  margin-top:0;
   margin-bottom: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
 }
 h3{
-  color: var(--color-negro);
+  color: var(--color-aqua);
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3em;
 }
 
-hr{
-  width: 5%;
-  border-style: none;
-  border-top-style: dotted;
-  border-top-color: grey;
-  border-width: 5px;
-}
-
-table{
-  border: none;
-}
-img{
-
-}
+/*html img*/
 .cloud1{
-  position: relative;
-  left: 241px;
+  position: absolute;
+  right: 100px;
 }
 .cloud2{
   position: absolute;
-
+  left: 100px;
+  top: 200px;
 }
