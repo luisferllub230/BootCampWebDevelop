@@ -1,25 +1,23 @@
 :root{
-  --color-negro:#222831;
   --color-aqua:#3BACB6;
-  --color-aquaClaro:#B3E8E5;
+  --color-negro:#222831;
+  --color-negroClaro:#393E46;
 }
 
-/*html body, main, header, footer*/
 body{
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
+/*------------------------------------------------------------------------------header------------------------------------------------------------------------------*/
 header{
   margin: 0;
   padding: 0;
   padding-top: 50px;
-  background-color: var(--color-aquaClaro);
+  background-color: var(--color-negro);
 }
 
-
-/*html h1-h6*/
 h1{
   color: var(--color-aqua);
   margin-top:0;
@@ -33,7 +31,6 @@ h3{
   font-size: 1.3em;
 }
 
-/*html img*/
 .cloud1{
   position: absolute;
   right: 100px;
@@ -42,4 +39,88 @@ h3{
   position: absolute;
   left: 100px;
   top: 200px;
+}
+
+/*------------------------------------------------------------------------------main------------------------------------------------------------------------------*/
+hr{
+  width: 50%;
+  height: 1px;
+  border-top:30px dotted var(--color-negroClaro);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 0 auto 0 auto;
+  padding:30px 0 30px 0;
+  background-color:transparent;
+
+}
+
+.skill-me{
+  margin: 10px 20% 100px 20%;
+  text-align: center;
+}
+
+.skill-row{
+  margin: 10px 20% 100px 20%;
+  text-align: left;
+}
+
+.skill h1{
+  color: var(--color-aqua);
+  margin-top:0;
+  margin-bottom: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
+}
+
+.skill p{
+  color: var(--color-negro);
+  line-height: 1.5;
+}
+
+.skill-img1{
+  width:20%;
+  background-color: var(--color-aqua);
+  float: left;
+  margin-right: 20px;
+  border-radius: 35%;
+}
+
+.skill-img2{
+  width:20%;
+  background-color: var(--color-aqua);
+  float: right;
+  margin-right: 20px;
+  border-radius: 35%;
+}
+
+.skill-img3{
+  width:20%;
+  border-radius: 35%;
+}
+
+/*--------------------------------------------------footer------------------------------------------*/
+footer{
+  background-color: var(--color-aqua);
+  padding: 5% 2% 5% 2%;
+}
+a {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+a:hover {
+	background-color:#5cbf2a;
+}
+a:active {
+	position:relative;
+	top:1px;
 }
