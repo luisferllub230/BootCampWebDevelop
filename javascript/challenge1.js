@@ -1,6 +1,3 @@
-
-//with the funtion math.max i can see how is the maxime 
-
 function solution(inputArray) {
     let m  = inputArray[0] * inputArray[1]
 
